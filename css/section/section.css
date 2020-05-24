@@ -1,0 +1,16 @@
+.scroll__section .sticky-element {
+  /* css 우선순위 때문에 .scroll__secton을 넣어줌 - 20점 */
+  display: none;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+#show__scene--0 .scroll__section--0 .sticky-element,
+#show__scene--1 .scroll__section--1 .sticky-element,
+#show__scene--2 .scroll__section--2 .sticky-element,
+#show__scene--3 .scroll__section--3 .sticky-element {
+  display: block;
+  /* js를 이용해서 body에 스크롤 위치에 따라 id 값으로 show__scene--? 를 붙여준다. */
+}

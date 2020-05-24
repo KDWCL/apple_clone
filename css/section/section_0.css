@@ -9,6 +9,7 @@
 }
 
 .scroll__message {
+  /* css 우선순위 10점 */
   display: flex;
   align-items: center;
   justify-content: center;
