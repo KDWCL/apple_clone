@@ -1,0 +1,33 @@
+@import 'reset.css';
+@import 'nav.css';
+@import 'section/section_0.css';
+@import 'section/section_1.css';
+@import 'section/section_2.css';
+@import 'section/section_3.css';
+@import 'footer.css';
+
+* {
+  box-sizing: border-box;
+}
+/* 패딩 마진 다 합쳐서 그 요소의 너비가 된다 */
+
+html {
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 14px;
+}
+
+body {
+  overflow-x: hidden;
+  color: rgb(29, 29, 31);
+  letter-spacing: -0.05em;
+  background-color: white;
+}
+
+p {
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(29, 29, 31);
+}

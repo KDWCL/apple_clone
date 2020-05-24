@@ -1,0 +1,33 @@
+.scroll__message-mid {
+  padding: 0 1rem;
+  font-size: 2rem;
+  color: #888;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.scroll__message-mid strong {
+  color: rgb(29, 29, 31);
+}
+
+.canvas__caption {
+  color: #888;
+  padding: 0 1rem;
+  font-size: 1.2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+@media (min-width: 1024px) {
+  /* .scroll__message-mid에서는 4vw를 쓰고 
+    canvas__caption에서는 2rem을 쓴 이유는 
+    애플 홈페이지에 보면 큰 타이틀같은 글들은 화면에 맞게 커지고 
+    설명 부분들은 고정픽셀로 되어있어서 그렇다. 
+    즉 디자이너의 의도를 따라가겠다라는 뜻임. 정해진게 없다.*/
+  .scroll__message-mid {
+    font-size: 4vw;
+  }
+  .canvas__caption {
+    font-size: 2rem;
+  }
+}

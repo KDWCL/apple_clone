@@ -1,0 +1,32 @@
+.localnav {
+  border-bottom: 1px solid #ddd;
+}
+
+.globalnav__list,
+.localnav__list {
+  display: flex;
+  align-items: center;
+  max-width: 1000px;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+.globalnav__list {
+  height: 44px;
+  justify-content: space-between;
+}
+
+.localnav__list {
+  height: 52px;
+}
+
+.localnav__list-item:nth-child(1) {
+  margin-right: auto;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.localnav__list-item:not(:nth-child(1)) .localnav__link {
+  margin-left: 2em;
+  font-size: 0.8rem;
+}

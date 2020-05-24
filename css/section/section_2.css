@@ -1,0 +1,33 @@
+.scroll__message small {
+  /* section_0.css에 .scroll__message 정의 */
+  /* display: block; */
+  font-size: 1.2rem;
+  margin-bottom: 0.5em;
+}
+
+.scroll__section--2 .scroll__message {
+  font-size: 3.5rem;
+}
+
+.scroll__message-description {
+  width: 50%;
+  font-weight: bold;
+}
+
+.scroll__pin {
+  width: 1px;
+  height: 100px;
+  background-color: rgb(29, 29, 31);
+}
+
+@media (min-width: 1024px) {
+  .scroll__section--2 .scroll__message {
+    font-size: 6vw;
+  }
+  .scroll__message small {
+    font-size: 1.5vw;
+  }
+  .scroll__message-description {
+    width: 20%;
+  }
+}

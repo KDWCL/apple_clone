@@ -1,0 +1,36 @@
+.scroll__section {
+  padding-top: 50vh;
+  /* 뷰포트 단위를 활용. 브라우저 높이를 의미 */
+}
+
+.scroll__section--0 h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.scroll__message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  height: 3em;
+  /* font-szie보다 더 크게 해서 height가 더 작아지지않게 함 */
+  /* background-color: rgba(0, 0, 0, 0.3); */
+  margin: 5px 0;
+}
+
+.scroll__message p {
+  text-align: center;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+@media (min-width: 1024px) {
+  .scroll__section--0 h1 {
+    font-size: 9vw;
+    /* 뷰포트 사이즈에 따라서 font-size 변환 */
+  }
+  .scroll__message {
+    font-size: 4vw;
+  }
+}
